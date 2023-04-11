@@ -1,0 +1,25 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0F7CBF;
+}
+
+.ah-card{
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+    background-color: #D98841;
+    border: 15px solid #F21B2D;
+    border-radius: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}

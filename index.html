@@ -19,15 +19,15 @@
 
 
 
-<body>
+<body>  
     
     <div id="app">
-        <div class="container">
+        <div class="container ah-card">
             <h1>Email Generator</h1>
-            <ul>
+            <ul v-if="randomMail.length === 10">
                 <li v-for="mail in randomMail">{{mail}}</li>
             </ul>
-            <button @click="getData">Get Number</button>
+            <button class="p-2" @click="getData">Get Mail</button>
         </div>
         
     </div>
